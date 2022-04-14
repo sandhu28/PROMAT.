@@ -1,121 +1,129 @@
 <!DOCTYPE html>
 <html class="bg-warning" lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>PROMAT</title>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <img src="../logo.png" height="80px" width="200px" />
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="C:/Users/ACER/Desktop/register.html"
-                >Register</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Help</a>
-            </li>
-          </ul>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
-          <!-- <form class="d-flex">
+  <title>PROMAT</title>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="../logo.png" height="80px" width="200px" />
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="C:/Users/ACER/Desktop/register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+          </li>
+        </ul>
+
+        <!-- <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
+      </div>
+    </div>
+  </nav>
+</head>
+<div style="background-color:#FFC45B;">
+
+  <body margin:0px padding:0px>
+    <h3>
+      <br />
+      WELCOME TO OUR WEBSITE!!!
+    </h3>
+    <div class="container mt-4">
+      <h2 class="text-center">LOGIN</h2>
+    </div>
+    <div class="mt-4">
+      <form>
+        <div class="container mb-1" aria-required="true">
+          <label for="getEmail" class="form-label">Email</label>
+          <input required type="email" class="form-control" id="getEmail" />
         </div>
-      </div>
-    </nav>
-  </head>
-  <div class="bg-warning">
-    <body margin:0px padding:0px>
-      <h3>
-        <br />
-        WELCOME TO OUR WEBSITE!!!
-      </h3>
-      <div class="container mt-4">
-        <h2 class="text-center">LOGIN</h2>
-      </div>
-      <div class="mt-4">
-        <form>
-          <div class="container mb-1" aria-required="true">
-            <label for="getEmail" class="form-label">Email</label>
-            <input required type="email" class="form-control" id="getEmail" />
-          </div>
 
-          <div class="container mb-1" aria-required="true">
-            <label for="getPassword" class="form-label">Password</label>
-            <input
-              required
-              type="password"
-              class="form-control"
-              id="getPassword"
-            />
-            <div class="text-end">
-              <a href="#">
-                <small class="text-muted text-end"> forgot password? </small>
-              </a>
-            </div>
+        <div class="container mb-1" aria-required="true">
+          <label for="getPassword" class="form-label">Password</label>
+          <input required type="password" class="form-control" id="getPassword" />
+          <div class="text-end">
+            <a href="#">
+              <small class="text-muted text-end"> forgot password? </small>
+            </a>
           </div>
-          <div class="container mb-1">
-            <button type="submit" class="mb-3 btn btn-primary" id="loginButton">
-              LOGIN
-            </button>
-          </div>
-        </form>
-        <div class="container float mb-1">
-          <p class="float-start me-3 text-muted">
-            If you are a new user please
-          </p>
-          <button type="button" class="btn btn-outline-primary"> <a href="registration_page.html">Register</a></button>
         </div>
+        <div class="container mb-1">
+          <button type="submit" class="mb-3 btn btn-primary" id="loginButton">
+            LOGIN
+          </button>
+        </div>
+      </form>
+      <div class="container float mb-1">
+        <p class="float-start me-3 text-muted">
+          If you are a new user please
+        </p>
+        <button type="button" class="btn btn-outline-primary">
+          <a href="registration_page.html">Register</a>
+        </button>
       </div>
+    </div>
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <a href="#"><img align="middle" src="icon1.png" class="btn btn-outline-light btn-floating m-1"
+              alt="This image cannot be found" width="5%"></a>
+          <a href="#"><img src="icon2.png" class="btn btn-outline-light btn-floating m-1"
+              alt="This image cannot be found" width="5%"></a>
+          <a href="#"><img src="icon3.jpg" class="btn btn-outline-light btn-floating m-1"
+              alt="This image cannot be found" width="5%"></a>
+          <a href="#"><img src="icon4.png" class="btn btn-outline-light btn-floating m-1"
+              alt="This image cannot be found" width="5%"></a>
+          <a href="#"><img src="youtube icon.jpg" class="btn btn-outline-light btn-floating m-1"
+              alt="This image cannot be found" width="5%"></a>
+        </section>
+        <!-- Section: Social media -->
 
-      <!-- Optional JavaScript; choose one of the two! -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2020 Copyright:
+          <a class="text-white" href="https://PROMAT.com/">PROMAT.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-      <!-- Option 1: Bootstrap Bundle with Popper -->
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"
-      ></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
 
-      <!-- Option 2: Separate Popper and Bootstrap JS -->
-      <!--
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    --></body>
-  </div>
+    -->
+  </body>
+</div>
+
 </html>
